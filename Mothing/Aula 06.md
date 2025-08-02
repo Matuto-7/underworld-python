@@ -15,3 +15,4 @@
 
 # Essa aula é importante porque permite que o programa deixe de ser “engessado” e comece a reagir às pessoas.
 <img width="493" height="152" alt="unnamed" src="https://github.com/user-attachments/assets/4af9f600-d5d3-4e35-90f0-b3833cd697d2" />
+<img width="1230" height="768" alt="1_BzmZNtKvPe4OzqMmWSUlSw" src="https://github.com/user-attachments/assets/f2fc3c18-edae-4fd5-a7b9-1115474fa088" />
