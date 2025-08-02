@@ -1,0 +1,21 @@
+# 🧠 Aula 04 – Primeiros comandos em Python
+# Essa é a primeira aula prática do curso.
+# O Guanabara ensina como abrir o interpretador do Python (IDLE ou terminal) e digitar comandos simples.
+# O foco aqui é entender como o Python responde a instruções na hora.
+#
+# O primeiro comando que todo mundo aprende é o famoso:
+
+print('Olá, mundo!')
+
+# Esse comando serve pra exibir uma mensagem na tela.
+# Ele mostra que o Python está funcionando corretamente e já executando códigos.
+#
+# 🧪 Teste no seu terminal:
+# como  instalar o Python no Termux:
+# pkg install python
+# se for a primeira vesz usando no Termux, atualiza os pacotes antes com:
+#pkg update && pkg upgrade
+# Abra o Python no Termux com:
+# $ python
+# Depois digite:
+# >>> print('Olá, mundo!')
