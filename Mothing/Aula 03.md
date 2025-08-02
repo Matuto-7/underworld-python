@@ -38,9 +38,11 @@ Acesse:
 
 Escolha a versão **Community (gratuita)** e clique em download.
 
-📸  ![2022042915245487](https://github.com/user-attachments/assets/9a928c2a-fcd0-41f7-97fb-45468a81b0b8)
+📸 ![2022042915245487](https://github.com/user-attachments/assets/9a928c2a-fcd0-41f7-97fb-45468a81b0b8)
 
 
 Depois de instalar, abra o PyCharm, crie um novo projeto e selecione o interpretador Python que você instalou.
 
-📸 *[Imagem da criação de projeto e escolha do Pytho
+📸 <img width="1230" height="768" alt="1_BzmZNtKvPe4OzqMmWSUlSw" src="https://github.com/user-attachments/assets/9532d45e-36ef-4bc5-a207-74e1881c41b1" />
+
+
