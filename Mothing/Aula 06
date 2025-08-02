@@ -1,0 +1,45 @@
+# 🧠 Aula 06 – Usando o input() para entrada de dados
+# Essa aula ensina como fazer o Python receber dados do usuário.
+# A função usada pra isso é o input(), que sempre retorna um valor do tipo string (texto).
+#
+# O Guanabara mostra como você pode guardar esse valor numa variável
+# e depois usar ele em um print, por exemplo, pra montar uma frase personalizada.
+
+# 📌 Exemplo básico:
+# nome = input('Qual é o seu nome? ')
+# print('Prazer em te conhecer,', nome)
+
+# ⚠️ Atenção:
+# Mesmo que o usuário digite um número, o input() vai guardar como texto (str).
+# Então, se quiser somar números, você precisa converter com int() ou float().
+
+# Essa aula é importante porque permite que o programa deixe de ser “engessado” e comece a reagir às pessoas.
+# Exemplos práticos de input()
+
+# Exemplo 1 – Saudação simples
+nome = input('Qual é o seu nome? ')
+print('Prazer em te conhecer,', nome)
+
+# Exemplo 2 – Entrada numérica (sem conversão ainda)
+idade = input('Quantos anos você tem? ')
+print('Você tem', idade, 'anos.')  # ainda é string
+
+# Exemplo 3 – Convertendo a entrada para número inteiro
+ano_nasc = int(input('Em que ano você nasceu? '))
+print('Então você nasceu em', ano_nasc)
+
+# Exemplo 4 – Soma de dois números
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+soma = n1 + n2
+print('A soma é', soma)
+
+# 🔎 Obs:
+# input() sempre retorna texto. Pra fazer contas, precisa usar int() ou float().
+
+# Exemplo 5 – Concatenando nome e idade
+nome = input('Digite seu nome: ')
+idade = input('E sua idade? ')
+print(f'{nome} tem {idade} anos.')
+
+# 🧪 Teste tudo no seu terminal pra ver como o Python responde a cada entrada.
