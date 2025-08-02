@@ -44,6 +44,7 @@ ______________________________________________________
 🔒 Exercício 005–015 – Operadores, conversões, medidas  
 🔒 Exercício 016–027 – Módulos e manipulação de texto  
 🔒 Exercício 028–035 – Condições básicas
+
 **Mundo 2 - Estruturas de Console**
 
 🔒 Introdução ao Mundo 2  
@@ -56,6 +57,7 @@ ______________________________________________________
 🔒 Exercício 046–055 – Laços com for  
 🔒 Exercício 056–063 – Laços com while  
 🔒 Exercício 064–071 – Combinações e jogos
+
 **Mundo 3 - Estruturas Compostas**
 
 🔒 Tuplas  
