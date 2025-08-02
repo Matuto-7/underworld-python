@@ -1,0 +1,54 @@
+# 🧠 Aula 07 – Manipulando Textos
+# Nessa aula o Guanabara ensina como trabalhar com textos (strings) em Python.
+# Ele mostra que podemos acessar partes de uma string, fatiar, contar letras,
+# trocar trechos, transformar pra maiúsculas/minúsculas, e muito mais.
+
+# 📌 Principais comandos e métodos da aula:
+
+# - texto[0:5] → fatiamento (pegar parte do texto)
+# - len(texto) → mostra o comprimento
+# - texto.count('a') → conta quantas vezes a letra aparece
+# - texto.find('abc') → mostra onde está a primeira ocorrência
+# - 'curso' in texto → retorna True se a palavra existir na string
+# - texto.upper(), texto.lower(), texto.capitalize(), texto.title() → transformações
+# - texto.strip(), texto.rstrip(), texto.lstrip() → removem espaços
+# - texto.replace('Python', 'JavaScript') → substitui partes da string
+#
+# Ele também mostra que string é imutável (não muda direto), só com atribuição.
+
+# Dica da aula:
+# “String é como uma lista de letras. Dá pra acessar cada parte e brincar com o texto.”
+# Prática com textos (strings)
+
+frase = 'Curso em Vídeo Python'
+
+# 🧩 Fatiamento
+print(frase[0:5])       # 'Curso'
+print(frase[9:14])      # 'Vídeo'
+print(frase[15:])       # 'Python'
+print(frase[:5])        # do início até o 4
+print(frase[::2])       # pula de 2 em 2 caracteres
+
+# 🔢 Análise
+print(len(frase))             # comprimento da string
+print(frase.count('o'))       # conta quantas vezes 'o' aparece
+print(frase.count('o', 0, 13))  # conta só entre 0 e 12
+print(frase.find('Vídeo'))    # posição onde começa 'Vídeo'
+print('Curso' in frase)       # verifica se a palavra está na string (True ou False)
+
+# 🔁 Transformações
+print(frase.replace('Python', 'Android'))  # troca palavras
+print(frase.upper())         # tudo maiúsculo
+print(frase.lower())         # tudo minúsculo
+print(frase.capitalize())    # só a primeira letra maiúscula
+print(frase.title())         # primeira letra de cada palavra maiúscula
+
+# ✂️ Remoção de espaços
+frase2 = '   Aprendendo Python   '
+print(frases2.split())       # remove espaços dos dois lados
+print(frases2.rstrip())      # remove espaços da direita
+print(frases2.lstrip())      # remove espaços da esquerda
+
+# Divisão
+print(frase.split())         # divide a frase em lista de palavras
+print('-'.join(frase))       # junta com hifen entre as letras
