@@ -1,0 +1,31 @@
+# 🧠 Aula 05 – Valores e Tipos Primitivos
+# Nessa aula o Guanabara apresenta os tipos básicos que o Python reconhece:
+# - int → números inteiros (ex: 5, -12, 1000)
+# - float → números reais com ponto (ex: 3.14, -0.5, 7.0)
+# - bool → valores lógicos: True ou False
+# - str → cadeias de caracteres (textos), sempre entre aspas
+
+# 📌 Ele também ensina como usar o type() para descobrir o tipo de um valor ou variável.
+
+# 🔹 Exemplos de uso:
+
+print(type(7))           # int
+print(type(3.14))        # float
+print(type(True))        # bool
+print(type('Matuto-7'))  # str
+
+# Você também pode atribuir valores a variáveis e verificar o tipo delas:
+
+nome = 'Matuto'
+idade = 25
+peso = 68.5
+vivo = True
+
+print(type(nome))  # str
+print(type(idade)) # int
+print(type(peso))  # float
+print(type(vivo))  # bool
+
+# Essa aula é importante pra entender como o Python classifica os dados que você usa nos programas.
+# Dica da aula:
+# "Se você souber o tipo do dado evita erros que está lidando, você já está programando melhor do que muita gente."
