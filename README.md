@@ -24,6 +24,7 @@ Porque quero aprender de verdade.
 Esse repositório é como um **diário de evolução**, onde eu posso olhar pra trás e ver o quanto cresci. Também é um
 
 **Mundo 1 - Fundamentos**
+
 🔒 Aula 01 – Seja um Programador  
 🔒 Aula 02 – Para que serve o Python?  
 🔒 Aula 03 – Instalando o Python3 e o IDLE  
@@ -44,6 +45,7 @@ ______________________________________________________
 🔒 Exercício 016–027 – Módulos e manipulação de texto  
 🔒 Exercício 028–035 – Condições básicas
 **Mundo 2 - Estruturas de Console**
+
 🔒 Introdução ao Mundo 2  
 🔒 Condições em Python (if, elif, else)  
 🔒 Repetições com for  
@@ -55,6 +57,7 @@ ______________________________________________________
 🔒 Exercício 056–063 – Laços com while  
 🔒 Exercício 064–071 – Combinações e jogos
 **Mundo 3 - Estruturas Compostas**
+
 🔒 Tuplas  
 🔒 Listas  
 🔒 Dicionários  
