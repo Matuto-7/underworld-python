@@ -23,14 +23,11 @@ Acesse o site oficial do Python:
 
 Clique em **Download Python 3.x.x** (a versão mais recente).
 
-📸 
-![Download do Python](Documentos/imgs/01.png)
+📸 <img width="1557" height="625" alt="01" src="https://github.com/user-attachments/assets/daf304c0-93e9-43f4-8138-523f47ff7ee3" />
 
 Depois de baixar, execute o instalador e marque a opção:  
 ✅ **Add Python to PATH**  
 Em seguida, clique em **Install Now**.
-
-📸 *[Imagem mostrando o instalador com a opção marcada]*
 
 ---
 
@@ -41,7 +38,8 @@ Acesse:
 
 Escolha a versão **Community (gratuita)** e clique em download.
 
-📸 *[Imagem do site com as duas versões]*
+📸  ![2022042915245487](https://github.com/user-attachments/assets/9a928c2a-fcd0-41f7-97fb-45468a81b0b8)
+
 
 Depois de instalar, abra o PyCharm, crie um novo projeto e selecione o interpretador Python que você instalou.
 
