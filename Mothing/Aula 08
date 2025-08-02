@@ -1,0 +1,60 @@
+# 🧠 Aula 08 – Operadores Aritméticos em Python
+# Nessa aula o Guanabara mostra como usar operadores matemáticos no Python:
+#
+# - +  → adição
+# - -  → subtração
+# - *  → multiplicação
+# - /  → divisão
+# - ** → potência
+# - // → divisão inteira (sem parte decimal)
+# - %  → módulo (resto da divisão)
+#
+# Ele também mostra como controlar a ordem das operações com parênteses (como na matemática).
+#
+# Outra parte importante da aula é a formatação:
+# - Usando vírgula no print pra separar
+# - Usando f-strings pra formatar com casas decimais, alinhamento e etc
+
+# 💬 Exemplo:
+# print(f'O resultado é {resultado:.2f}')  → mostra com 2 casas decimais
+
+# Dica da aula:
+# “Python respeita a mesma ordem de prioridade da matemática: parênteses primeiro, depois potências, depois multiplicações/divisões e por fim somas/subtrações.”
+# Prática com operadores aritméticos
+
+# Operações básicas
+a = 10
+b = 3
+
+print(a + b)   # Adição → 13
+print(a - b)   # Subtração → 7
+print(a * b)   # Multiplicação → 30
+print(a / b)   # Divisão normal → 3.333...
+
+# Potência, divisão inteira e resto
+print(a ** b)  # Potência → 10³ = 1000
+print(a // b)  # Divisão inteira → 3
+print(a % b)   # Resto da divisão → 1
+
+# 🔸 Ordem de precedência (igual matemática)
+resultado = 5 + 3 * 2
+print(resultado)         # 11 → multiplicação antes da soma
+
+resultado2 = (5 + 3) * 2
+print(resultado2)        # 16 → parênteses primeiro
+
+resultado3 = 3 * 5 ** 2
+print(resultado3)        # 75 → potência vem antes da multiplicação
+
+# 🔹 Formatação de print
+
+nome = 'Matuto-7'
+nota = 8.4567
+
+print('Nota do aluno é', nota)
+print('Nota formatada: {:.2f}'.format(nota))       # usando format
+print(f'Nota com f-string: {nota:.2f}')            # usando f-string
+
+# Alinhamento e espaços
+print(f'{nome:>12}')   # alinhado à direita
+print(f'{nome:<12}')   # alinh
