@@ -1,0 +1,11 @@
+# 🧠 Aula 03 – Instalando o Python e o IDLE
+# Nessa aula, o Guanabara ensina como instalar o Python no computador,
+# acessando o site oficial (python.org) e baixando a versão mais recente.
+# Ele explica que, junto com o Python, vem o IDLE — um editor simples que já permite rodar códigos.
+#
+# Também comenta sobre o caminho da instalação (PATH) e a importância de garantir que o Python
+# funcione direto no terminal/cmd. 
+# Mas lembra que quem usa celular pode praticar com apps como QPython ou Termux.
+
+# 💬 Dica da aula:
+# “Se você conseguir abrir o terminal e digitar `python` ou `python3`, já tá pronto pra começar.”
