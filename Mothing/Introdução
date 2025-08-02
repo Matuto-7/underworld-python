@@ -1,0 +1,12 @@
+# 🧠 Introdução ao Curso de Python – Guanabara (Aulas 1 a 3)
+
+Este diretório contém os resumos e comentários sobre as três primeiras aulas do curso:
+
+- `aula01.py` → Motivação e mentalidade de programador iniciante.  
+- `aula02.py` → Onde o Python é usado e por que aprender.  
+- `aula03.py` → Como instalar Python e configurar o ambiente.
+
+Esses arquivos **não têm código executável**, mas são essenciais pra entender o início da jornada.  
+São como o **aquecimento** antes dos primeiros comandos.
+
+> Todos os resumos foram feitos por mim, Matias (**matuto-7**), estudando direto no Termux.
