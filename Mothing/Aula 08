@@ -1,60 +1,121 @@
-# 🧠 Aula 08 – Operadores Aritméticos em Python
-# Nessa aula o Guanabara mostra como usar operadores matemáticos no Python:
-#
-# - +  → adição
-# - -  → subtração
-# - *  → multiplicação
-# - /  → divisão
-# - ** → potência
-# - // → divisão inteira (sem parte decimal)
-# - %  → módulo (resto da divisão)
-#
-# Ele também mostra como controlar a ordem das operações com parênteses (como na matemática).
-#
-# Outra parte importante da aula é a formatação:
-# - Usando vírgula no print pra separar
-# - Usando f-strings pra formatar com casas decimais, alinhamento e etc
+ Aula 8 – Utilizando Módulos em Python (com prática)
+ O que são módulos?
 
-# 💬 Exemplo:
-# print(f'O resultado é {resultado:.2f}')  → mostra com 2 casas decimais
+Módulos são conjuntos de funções prontas que podemos importar no nosso código pra facilitar tarefas.
+🔹 import math → importa o módulo inteiro
 
-# Dica da aula:
-# “Python respeita a mesma ordem de prioridade da matemática: parênteses primeiro, depois potências, depois multiplicações/divisões e por fim somas/subtrações.”
-# Prática com operadores aritméticos
+import math
 
-# Operações básicas
-a = 10
-b = 3
+print(math.sqrt(49))    # 7.0 → raiz quadrada
+print(math.ceil(7.3))   # 8   → arredonda pra cima
+print(math.floor(7.9))  # 7   → arredonda pra baixo
+print(math.trunc(5.89)) # 5   → corta parte decimal
+print(math.pow(2, 3))   # 8.0 → potência
+print(math.factorial(5))# 120 → fatorial
 
-print(a + b)   # Adição → 13
-print(a - b)   # Subtração → 7
-print(a * b)   # Multiplicação → 30
-print(a / b)   # Divisão normal → 3.333...
+🔹 from math import função → importa só o que for usar
 
-# Potência, divisão inteira e resto
-print(a ** b)  # Potência → 10³ = 1000
-print(a // b)  # Divisão inteira → 3
-print(a % b)   # Resto da divisão → 1
+from math import sqrt, pow
 
-# 🔸 Ordem de precedência (igual matemática)
-resultado = 5 + 3 * 2
-print(resultado)         # 11 → multiplicação antes da soma
+print(sqrt(81))  # 9.0
+print(pow(4, 2)) # 16.0
 
-resultado2 = (5 + 3) * 2
-print(resultado2)        # 16 → parênteses primeiro
+🔹 import math as m → dá um apelido pro módulo
 
-resultado3 = 3 * 5 ** 2
-print(resultado3)        # 75 → potência vem antes da multiplicação
+import math as m
 
-# 🔹 Formatação de print
+print(m.sqrt(64))   # 8.0
+print(m.floor(3.99))# 3
 
-nome = 'Matuto-7'
-nota = 8.4567
+Resumo rápido das funções do módulo math:
+Função	O que faz
+sqrt(x)	Raiz quadrada
+pow(x, y)	Potência (x elevado a y)
+ceil(x)	Arredonda pra cima
+floor(x)	Arredonda pra baixo
+trunc(x)	Trunca (corta a parte decimal)
+factorial(x)	Fatorial de x
 
-print('Nota do aluno é', nota)
-print('Nota formatada: {:.2f}'.format(nota))       # usando format
-print(f'Nota com f-string: {nota:.2f}')            # usando f-string
+Existem 3 formas principais de importar módulos:
+1️⃣ import nome_do_módulo
 
-# Alinhamento e espaços
-print(f'{nome:>12}')   # alinhado à direita
-print(f'{nome:<12}')   # alinh
+    Importa tudo que tem dentro do módulo.
+    Você precisa usar o nome do módulo antes da função.
+
+import math
+
+print(math.sqrt(25))  # raiz quadrada
+
+2️⃣ from nome_do_módulo import função
+
+    Importa só o que você vai usar.
+    Você não precisa usar o nome do módulo depois.
+
+from math import sqrt, pow
+
+print(sqrt(36))  # 6.0
+print(pow(2, 3)) # 8.0
+
+3️⃣ import nome_do_módulo as apelido
+
+    Dá um nome menor pro módulo (útil pra economizar digitação).
+
+import math as m
+
+print(m.floor(7.8))  # 7
+print(m.ceil(7.1))   # 8
+
+🔢 Módulo math: Funções matemáticas úteis
+
+O math é um módulo nativo (vem com o Python) e contém várias funções de matemática avançada.
+📌 Principais funções com exemplos:
+
+import math
+
+# Raiz quadrada
+print(math.sqrt(49))     # 7.0
+
+# Potência
+print(math.pow(3, 2))    # 9.0
+
+# Arredondamentos
+print(math.ceil(5.3))    # 6   → arredonda pra cima
+print(math.floor(5.8))   # 5   → arredonda pra baixo
+
+# Truncar (corta o decimal, sem arredondar)
+print(math.trunc(8.999)) # 8
+
+# Fatorial
+print(math.factorial(4)) # 24
+
+🤔 Por que usar módulos?
+
+✅ Reutilização de código pronto
+✅ Código mais limpo e organizado
+✅ Mais produtividade
+✅ Acesso a funções avançadas sem precisar programar tudo
+  Exemplos combinados prontos pra colar no seu .py:
+
+# Aula 8 – Utilizando Módulos e Math
+
+# Importando o módulo inteiro
+import math
+
+print("Raiz quadrada de 81:", math.sqrt(81))
+print("Potência de 3^3:", math.pow(3, 3))
+print("Arredondando pra cima 4.2:", math.ceil(4.2))
+print("Arredondando pra baixo 4.9:", math.floor(4.9))
+print("Truncando 5.999:", math.trunc(5.999))
+print("Fatorial de 5:", math.factorial(5))
+
+# Importando funções específicas
+from math import sqrt, pow
+
+print("Raiz quadrada de 100:", sqrt(100))
+print("2 elevado a 4:", pow(2, 4))
+
+# Importando com apelido
+import math as m
+
+print("Arredondando pra cima 9.1:", m.ceil(9.1))
+print("Fatorial de 6:", m.factorial(6))
