@@ -1,0 +1,84 @@
+📝 EXPLICAÇÃO DA AULA 9 – MANIPULAÇÃO DE TEXTO (STRINGS)
+📌 O que é uma string?
+
+Uma string em Python é qualquer sequência de caracteres entre aspas.
+Exemplo:
+
+mensagem = "Aprendendo Python com o Guanabara"
+
+🔎 PRINCIPAIS OPERAÇÕES COM STRINGS
+1. Fatiamento
+
+Usado para pegar partes da string.
+
+texto[0:5]  # Vai do índice 0 até o 4 (5 não entra)
+texto[6:]   # Do índice 6 até o final
+texto[:6]   # Do início até o índice 5
+texto[::2]  # Pula de 2 em 2 caracteres
+
+2. Análise
+
+Usado para verificar informações da string.
+
+len(texto)          # Tamanho da string
+texto.count('a')    # Quantas vezes aparece a letra 'a'
+texto.find('Python')# Mostra o índice de onde começa 'Python'
+'Python' in texto   # Retorna True se encontrar
+
+3. Transformação
+
+Serve para modificar o conteúdo da string.
+
+texto.replace('Python', 'Java')  # Substitui palavras
+texto.upper()                    # Tudo maiúsculo
+texto.lower()                    # Tudo minúsculo
+texto.capitalize()               # Só a primeira letra maiúscula
+texto.title()                    # Primeira letra de cada palavra maiúscula
+
+4. Remoção de espaços
+
+texto.strip()   # Remove espaços do início e do fim
+texto.lstrip()  # Remove só da esquerda
+texto.rstrip()  # Remove só da direita
+
+5. Divisão e Junção
+
+texto.split()           # Divide a string em palavras
+'-'.join(texto.split()) # Junta com traços
+
+🧪 EXEMPLOS PRÁTICOS PARA TEU ARQUIVO .py
+
+# Aula 9 - Manipulação de Texto (Strings)
+
+frase = "Curso em Vídeo Python"
+
+# Fatiamento
+print(frase[9])         # V
+print(frase[9:14])      # Vídeo
+print(frase[9:21:2])    # Víe yhn
+print(frase[:5])        # Curso
+print(frase[15:])       # Python
+
+# Análise
+print(len(frase))            # 21
+print(frase.count('o'))      # 3
+print(frase.count('o', 0, 13))  # 1
+print(frase.find('Vídeo'))   # 9
+print('Curso' in frase)      # True
+
+# Transformação
+print(frase.replace('Python', 'Android'))  # Curso em Vídeo Android
+print(frase.upper())       # CURSO EM VÍDEO PYTHON
+print(frase.lower())       # curso em vídeo python
+print(frase.capitalize())  # Curso em vídeo python
+print(frase.title())       # Curso Em Vídeo Python
+
+# Remoção de espaços
+espaco = '   Aprendendo Python   '
+print(espaco.strip())    # 'Aprendendo Python'
+print(espaco.lstrip())   # 'Aprendendo Python   '
+print(espaco.rstrip())   # '   Aprendendo Python'
+
+# Divisão e Junção
+print(frase.split())                # ['Curso', 'em', 'Vídeo', 'Python']
+print('-'.join(frase.split()))      # Curso-em-Vídeo-Python
