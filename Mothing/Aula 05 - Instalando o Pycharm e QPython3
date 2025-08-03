@@ -1,0 +1,83 @@
+🧰 Aula 5 – Instalando o PyCharm e QPython3
+📌 Objetivo da aula:
+
+Te mostrar como configurar o ambiente de programação para começar a escrever códigos Python no computador e no celular.
+💻 Instalação do PyCharm (PC)
+
+O PyCharm é uma IDE (Ambiente de Desenvolvimento Integrado) criada pela JetBrains, própria pra programar em Python.
+✅ Vantagens:
+
+    Auto completar código
+
+    Destaca erros em tempo real
+
+    Interface profissional
+
+    Perfeito pra projetos maiores
+
+🔧 Como instalar:
+
+    Acesse: https://www.jetbrains.com/pycharm/
+
+    Baixe a versão Community (gratuita)
+
+    Instale normalmente no seu PC
+
+    No primeiro uso:
+
+        Crie um novo projeto
+
+        Selecione o interpretador Python instalado (geralmente ele já detecta)
+
+📱 Instalação do QPython3 (celular Android)
+
+O QPython3 é um app pra rodar códigos Python direto no celular.
+✅ Vantagens:
+
+    Praticidade
+
+    Pode testar códigos pequenos onde estiver
+
+    Útil pra estudar sem estar no PC
+
+🔧 Como instalar:
+
+    Abra a Play Store
+
+    Busque por QPython 3L
+
+    Instale e abra o app
+
+    Vá em Editor → escreva seu código → clique em Run
+
+📘 Dica prática
+
+Você pode estudar em qualquer lugar com o QPython3, e usar o PyCharm quando estiver no PC. É legal ter os dois pra praticar em diferentes momentos do dia!
+🧪 Código de teste para ambos:
+
+nome = input("Qual é o seu nome? ")
+print(f"Seja bem-vindo(a), {nome}!")
+
+    Esse código simples vai funcionar tanto no PyCharm quanto no QPython3! 😉
+
+💬 Sugestão de texto pro seu README.md
+
+# Aula 5 – Instalação do Ambiente de Desenvolvimento
+
+Nesta aula aprendi como configurar o ambiente para programar em Python, tanto no computador quanto no celular.
+
+## 💻 Ferramenta: PyCharm
+IDE completa para PC, com destaque de sintaxe, auto complete, e suporte profissional.
+
+- Link: https://www.jetbrains.com/pycharm/
+- Versão gratuita: Community
+
+## 📱 Ferramenta: QPython3
+Aplicativo para Android que permite rodar scripts Python no celular.
+
+- Baixe na Play Store: QPython 3L
+
+## ✅ Teste de funcionamento:
+```python
+nome = input("Qual é o seu nome? ")
+print(f"Seja bem-vindo(a), {nome}!")
