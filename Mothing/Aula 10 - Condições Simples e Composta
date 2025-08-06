@@ -1,0 +1,80 @@
+## 📚 Aula 10 — Condições em Python (Simples e Compostas)
+
+Nesta aula do Curso de Python do professor Guanabara, aprendemos a usar **estruturas condicionais** para tomar decisões no programa. Ou seja, você pode fazer com que o código execute um caminho diferente dependendo de uma **condição**.
+
+---
+
+### 🟨 Condição Simples
+
+Só existe um caminho caso a condição seja verdadeira.
+
+```python
+tempo = int(input("Quantos anos tem seu carro?"))
+if tempo <= 3:
+    print("Carro novo")
+print("Fim")
+Se tempo for maior que 3, ele só pula a mensagem.
+O print("Fim") sempre será executado.
+
+
+---
+
+🟧 Condição Composta
+
+Permite dois caminhos: se for verdadeiro, faz uma coisa; senão, faz outra.
+
+tempo = int(input("Quantos anos tem seu carro?"))
+if tempo <= 3:
+    print("Carro novo")
+else:
+    print("Carro velho")
+print("Fim")
+
+
+---
+
+✅ Exemplo com strings
+
+nome = str(input("Qual é o seu nome? "))
+if nome.lower() == "matuto-7":
+    print("Eita! Que nome brabo 😎")
+else:
+    print(f"Prazer em te conhecer, {nome}!")
+
+
+---
+
+✅ Exemplo com notas
+
+nota1 = float(input("Primeira nota: "))
+nota2 = float(input("Segunda nota: "))
+média = (nota1 + nota2) / 2
+
+if média >= 6.0:
+    print(f"Sua média foi {média}. Você foi aprovado!")
+else:
+    print(f"Sua média foi {média}. Você foi reprovado!")
+
+
+---
+
+📝 Dicas:
+
+Sempre usa dois pontos : no final do if e else
+
+O que está dentro do bloco do if deve estar identado (com tab ou 4 espaços)
+
+Você pode usar qualquer operador:
+==, !=, <, >, <=, >=
+
+
+
+---
+
+💡 Resumo
+
+if → condição simples (só executa se for verdadeira)
+
+if ... else → condição composta (um caminho ou outro)
+
+Você pode usar input() pra receber dados e tomar decisões
