@@ -34,8 +34,8 @@ Esse repositório é como um **diário de evolução**, onde eu posso olhar pra 
 🔓 Aula 07 – Operadores aritméticos  
 🔓 Aula 08 – Utilizando módulos do Python  
 🔓 Aula 09 – Manipulando texto com Python  
-🔒 Aula 10 – Condições (if, else, elif)  
-🔒 Aula 11 – Adicionando cores no terminal
+🔓 Aula 10 – Condições (if, else, elif)  
+🔓 Aula 11 – Adicionando cores no terminal
 ______________________________________________________
 🔓 Exercício 001 – Deixando tudo pronto  
 🔓 Exercício 002 – Respondendo ao Usuário  
@@ -43,7 +43,7 @@ ______________________________________________________
 🔓 Exercício 004 – Dissecando uma variável  
 🔓 Exercício 005–015 – Operadores, conversões, medidas  
 🔓 Exercício 016–027 – Módulos e manipulação de texto  
-🔒 Exercício 028–035 – Condições básicas
+🔓 Exercício 028–035 – Condições básicas
 
 **Mundo 2 - Estruturas de Console**
 
