@@ -1,0 +1,112 @@
+Aula 11: Cores no Terminal com Python
+🎯 Objetivo da Aula
+
+Nesta aula, aprendemos como utilizar os códigos de escape ANSI para configurar cores nos textos exibidos no terminal, tornando a saída dos programas mais legível e visualmente atraente.
+
+🔍 O que são Códigos de Escape ANSI?
+
+Os códigos de escape ANSI são sequências especiais que instruem o terminal a alterar a aparência do texto, como cor e estilo. Eles são compostos por:
+
+\033: caractere de escape.
+
+[: inicia a sequência de controle.
+
+XX: código do estilo ou cor.
+
+m: finaliza a sequência.
+
+Por exemplo, \033[1;31m altera o texto para vermelho em negrito.
+
+🧪 Exemplo Prático
+# cores_terminal.py
+print("\033[1;31mTexto em vermelho\033[0m")
+print("\033[1;32mTexto em verde\033[0m")
+print("\033[1;33mTexto em amarelo\033[0m")
+
+
+Neste exemplo:
+
+\033[1;31m: texto vermelho em negrito.
+
+\033[0m: reseta a cor para o padrão do terminal.
+
+🎨 Cores e Estilos Comuns
+Código ANSI	Cor/Estilo
+\033[0m	Reseta o estilo
+\033[1m	Negrito
+\033[4m	Sublinhado
+\033[31m	Vermelho
+\033[32m	Verde
+\033[33m	Amarelo
+\033[34m	Azul
+\033[35m	Magenta
+\033[36m	Ciano
+\033[37m	Branco
+🛠️ Dicas para Uso Eficiente
+
+Resetar Estilos: Sempre utilize \033[0m após aplicar estilos para evitar que eles se propaguem para outras partes do texto.
+
+Funções Auxiliares: Crie funções para facilitar o uso de cores:
+
+def prRed(s): print("\033[91m {}\033[00m".format(s))
+def prGreen(s): print("\033[92m {}\033[00m".format(s))
+
+
+Bibliotecas: Considere utilizar bibliotecas como colorama para facilitar a manipulação de cores de forma multiplataforma.
+
+
+1️⃣ Exemplo básico de cores
+# cores_terminal.py
+
+# Texto em cores diferentes
+print("\033[1;31mVermelho\033[0m")
+print("\033[1;32mVerde\033[0m")
+print("\033[1;33mAmarelo\033[0m")
+print("\033[1;34mAzul\033[0m")
+print("\033[1;35mMagenta\033[0m")
+print("\033[1;36mCiano\033[0m")
+print("\033[1;37mBranco\033[0m")
+
+2️⃣ Exemplo com estilos (negrito, sublinhado)
+print("\033[1;31mNegrito vermelho\033[0m")
+print("\033[4;32mSublinhado verde\033[0m")
+print("\033[1;33;44mAmarelo com fundo azul\033[0m")  # 44 = fundo azul
+
+3️⃣ Funções para facilitar o uso de cores
+def prRed(text):
+    print(f"\033[91m{text}\033[0m")
+
+def prGreen(text):
+    print(f"\033[92m{text}\033[0m")
+
+def prYellow(text):
+    print(f"\033[93m{text}\033[0m")
+
+prRed("Erro: algo deu errado!")
+prGreen("Sucesso: operação concluída!")
+prYellow("Aviso: verifique os dados!")
+
+4️⃣ Exemplo com colorama (opcional, recomendado)
+from colorama import init, Fore, Back, Style
+
+init(autoreset=True)  # Reseta cores automaticamente após cada print
+
+print(Fore.RED + "Vermelho")
+print(Fore.GREEN + "Verde" + Back.YELLOW + " com fundo amarelo")
+print(Style.BRIGHT + "Negrito")
+print(Fore.CYAN + Style.DIM + "Ciano com estilo DIM")
+
+
+💡 Dicas práticas para o repositório:
+
+Crie uma pasta chamada exemplos no repositório e coloque cada exemplo em arquivos separados, por exemplo:
+
+python-terminal-colors/
+│
+├── exemplos/
+│   ├── cores_basicas.py
+│   ├── estilos.py
+│   ├── funcoes.py
+│   └── colorama.py
+├── README.md
+└── requirements.txt
